@@ -3,19 +3,6 @@ body {
     margin: 0;
 }
 
-/* ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    gap: 16px;
-} */
-
-/* li {
-    font-size: 18px;
-    color: #e5e7eb;
-} */
-
 button {
     flex-shrink: 0;
     cursor: pointer;
@@ -170,13 +157,14 @@ button.signup {
     max-width: 50%;
     margin: 96px 0px;
     border-radius: 8px;
+    padding: 32px 16px;
 }
 
 .intro-container {
     display: flex;
     flex-direction: column;
     padding: 16px 32px;
-    align-items: center;
+    justify-content: center;
     flex-grow: 2;
 }
 
@@ -190,6 +178,8 @@ button.signup {
 }
 
 .call .button {
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
 }
